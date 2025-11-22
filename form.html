@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Solura Coffee</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logoremovebg.png" alt="Logo" />
+        Solura Coffee
+      </a>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="tabel.html">Menu</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <h2>Hubungi Kami</h2>
+        <p><strong>Silakan isi formulir di bawah ini untuk menghubungi Solura Coffee.</strong></p>
+        <form action="#" method="post" class="contact-form">
+          <!-- Nama -->
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+
+          <!-- Email -->
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required />
+
+          <!-- Dropdown -->
+          <label for="subject">Topik</label>
+          <select id="subject" name="subject" required>
+            <option value="">-- Pilih Topik --</option>
+            <option value="order">Pesanan</option>
+          </select>
+
+          <!-- Radio -->
+          <p>Apakah Anda pelanggan tetap?</p>
+          <label><input type="radio" name="customer" value="yes" required /> Ya</label>
+          <label><input type="radio" name="customer" value="no" /> Tidak</label>
+
+          <!-- Checkbox -->
+          <p>Jenis kopi pilihan Anda:</p>
+          <label><input type="checkbox" name="coffee[]" value="espresso" /> Espresso</label>
+          <label><input type="checkbox" name="coffee[]" value="latte" /> Latte</label>
+          <label><input type="checkbox" name="coffee[]" value="cappuccino" /> Cappuccino</label>
+          <label><input type="checkbox" name="coffee[]" value="americano" /> Americano</label>
+          <!-- Checkbox -->
+          <p>Jenis Dessert pilihan Anda:</p>
+          <label><input type="checkbox" name="dessert[]" value="tiramisu" /> Tiramisu</label>
+          <label><input type="checkbox" name="dessert[]" value="croissant" /> Croissant</label>
+          <label><input type="checkbox" name="dessert[]" value="brownies" /> Brownies</label>
+          <label><input type="checkbox" name="dessert[]" value="cheesecake" /> Cheesecake</label>
+
+          <!-- Pesan -->
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+          <!-- Tombol -->
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- Akhir Contact Section -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <div class="footer-container">
+        <p>&copy; 2025 Solura Coffee. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

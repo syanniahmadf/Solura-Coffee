@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri - Solura Coffee</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logoremovebg.png" alt="Logo" />
+        Solura Coffee
+      </a>
+
+      <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="tabel.html">Menu</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Galeri Section -->
+    <section class="gallery-section">
+      <h2>Galeri Solura Coffee</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img/coffe1.jpg" alt="Coffe 1" />
+          <div class="overlay">Espresso</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/coffe2.jpg" alt="Coffe 2" />
+          <div class="overlay">Latte</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/coffe3.jpg" alt="Coffe 3" />
+          <div class="overlay">Americano</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/coffe4.jpg" alt="Coffe 4" />
+          <div class="overlay">Cappuccino</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/coffe5.jpg" alt="Coffe 5" />
+          <div class="overlay">Mocha</div>
+        </div>
+        <div class="gallery-item">
+          <img src="img/coffe6.jpg" alt="Coffe 6" />
+          <div class="overlay">Cold Brew</div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Galeri Section -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <div class="footer-container">
+        <p>&copy; 2025 Solura Coffee. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solura Coffee</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">
+        <img src="img/logoremovebg.png" alt="Logo" />
+        Solura Coffee
+      </a>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="galeri.html">Gallery</a></li>
+        <li><a href="tabel.html">Menu</a></li>
+        <li><a href="form.html">Contact</a></li>
+        <!-- Tombol Dark Mode -->
+        <button id="darkModeToggle" class="btn-darkmode">🌙</button>
+      </ul>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- Hero Section -->
+    <section class="home-section">
+      <div class="home-left">
+        <h1 style="font-family: Lucida Handwriting; color: #ff9d00">Solura Coffee</h1>
+        <h1 id="typing-text"></h1>
+        <p>Nikmati cita rasa kopi terbaik dengan suasana hangat dan pelayanan ramah. Kami menyajikan kopi dengan hati untuk setiap momen Anda.</p>
+        <br />
+        <p><i class="fa-solid fa-location-dot"></i> Jalan. Kebon Manggu No.54</p>
+        <div class="home-buttons">
+          <a href="tabel.html" class="btn">Order Now</a>
+          <a href="form.html" class="btn btn-outline">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-right">
+        <div class="logo-container">
+          <img src="img/logoremovebg.png" alt="Solura Coffee Logo" />
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-left scroll-reveal scroll-left">
+          <img src="img/bg.jpg" alt="Tentang Solura Coffee" />
+        </div>
+        <div class="about-right scroll-reveal scroll-right">
+          <h2 style="font-family: Lucida Handwriting">Tentang Kami</h2>
+          <p>Solura Coffee hadir untuk memberikan pengalaman menikmati kopi terbaik dengan suasana hangat dan penuh cerita.</p>
+          <p>Dari kata "Sol" (matahari) "Ura" (aura) → Solura bisa berarti cahaya hangat yang memancarkan energi positif, cocok untuk coffee shop yang ingin memberi suasana cerah dan penuh semangat.</p>
+          <a href="#contact" class="btn">Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About Section -->
+
+    <!--Highlight Section-->
+    <section class="menu-section scroll-reveal" id="menu">
+      <h2>Menu Favorit</h2>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="img/coffe2.jpg" alt="Espresso" />
+          <h3>Espresso</h3>
+          <p>Rp 20.000</p>
+        </div>
+        <div class="menu-item">
+          <img src="img/coffe4.jpg" alt="Latte" />
+          <h3>Latte</h3>
+          <p>Rp 25.000</p>
+        </div>
+        <div class="menu-item">
+          <img src="img/coffe5.jpg" alt="Mocha" />
+          <h3>Mocha</h3>
+          <p>Rp 30.000</p>
+        </div>
+      </div>
+      <a href="tabel.html" class="btn">Lihat Semua Menu</a>
+    </section>
+
+    <!--Akhir Highlight Section-->
+
+    <!--Promo Section-->
+    <section class="promo-section" id="promo">
+      <h2>Promo & Event</h2>
+      <div class="promo-container">
+        <div class="promo-item">
+          <h3>Diskon 20% untuk Latte</h3>
+          <p>Berlaku setiap hari Senin.</p>
+        </div>
+        <div class="promo-item">
+          <h3>Live Acoustic Night</h3>
+          <p>Setiap Jumat malam mulai pukul 19.00.</p>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Promo Section-->
+
+    <!-- Testimoni Section -->
+    <section class="testimoni-section scroll-reveal" id="testimoni">
+      <h2>Testimoni</h2>
+      <div class="testimoni-container">
+        <div class="testimoni-item">
+          <p>"Kopi di Solura Coffee benar-benar nikmat, suasananya hangat dan nyaman."</p>
+          <h4>- Amir</h4>
+        </div>
+        <div class="testimoni-item">
+          <p>"Pelayanan ramah, rasa kopi konsisten. Tempat favorit saya untuk bekerja sambil ngopi."</p>
+          <h4>- Fierly</h4>
+        </div>
+        <div class="testimoni-item">
+          <p>"Espresso-nya mantap! Sangat cocok untuk memulai hari dengan penuh semangat."</p>
+          <h4>- Ally</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Testimoni Section -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <div class="footer-container">
+        <p>&copy; 2025 Solura Coffee. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
