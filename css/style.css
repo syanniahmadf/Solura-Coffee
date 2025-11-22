@@ -350,6 +350,8 @@ body {
   margin-bottom: 5px;
   font-weight: bold;
   color: #222;
+  display: block;
+  text-align: left;
 }
 
 .contact-form input,
@@ -393,13 +395,6 @@ body {
 .contact-form input[type='radio'],
 .contact-form input[type='checkbox'] {
   margin-right: 8px;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 10px;
-  text-align: left;
-  color: #222;
 }
 
 .gallery-section {
@@ -586,7 +581,6 @@ tbody tr:hover {
   color: #fff;
   text-align: center;
   padding: 20px;
-  margin-top: auto;
 }
 
 .footer-social {
