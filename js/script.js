@@ -88,8 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (errors.length > 0) {
       alert(errors.join('\n'));
     } else {
-      alert('Form berhasil dikirim!');
-      // form.submit(); // hapus kalau tidak ada backend
+      alert('Pesanan Anda siap dibuat');
     }
   });
 });
